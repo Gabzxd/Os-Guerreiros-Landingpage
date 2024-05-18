@@ -1,27 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
+	<title>Os Guerreiros</title>
+	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Os Guerreiros</title>
-    <link rel="shotcut icon" href="img/image 1Logo1.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <div class="landingpage container">
-        <div class="content">
-            <img src="img/image 1Logo1.png" alt="Logo1">
-            <div class="equipes">
-                <h2>Equipes Twitch</h2>
-                <div class="equipes-content">
-                    <a href="https://osg.cx/equipe-academia" target="_blank"><img src="img/Academia.png" alt="Academia"></a>
-                    <a href="https://osg.cx/equipe-principal" target="_blank"><img src="img/Principal.png" alt="Principal"></a>
-                </div>
-            </div>
-        </div>
-    </div>
+	<nav id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		<a href="#">Home</a>
+		<a href="#">Sobre</a>
+		<a href="#">Estatuto</a>
+		<a href="#">Junte-se</a>
+		<a href="#">Patrocínio</a>
+		<a href="#">Servidores Gamers</a>
+		<a href="#">Administração</a>
+		<a href="#">FAQ</a>
+		<a href="#">Contato</a>
+	</nav>
+
+	<button class="openbtn" onclick="openNav()">☰ See more</button>
+
+	<main>
+		<div class="divimg">
+			<img src="../img/logo_principal.webp" alt="Logomarca" class="logo">
+			<h2 class="title">Veja Nossas Equipes na Twitch!</h2>
+			<div class="Twitch">
+				<a href="https://www.twitch.tv/team/osguerreiros" target="_blank"><img src="../img/logo_twi.webp" alt="Link_twitch" class="twitch_bnt"></a>
+
+				<a href="https://www.twitch.tv/team/academiaosg" target="_blank"><img src="../img/logo.twi2.webp" alt="Link_twitch" class="twitch_bnt"></a>
+			</div>
+		</div>
+	</main>
+	<footer>
+
+		<p>Copyright © 2024 V.G Solutions</p>
+
+	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
