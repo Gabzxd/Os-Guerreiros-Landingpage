@@ -11,6 +11,12 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.832);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .sidebar {
@@ -80,6 +86,7 @@ body {
 }
 .logo{
     height: 250px;
+    margin-top: 200px;
     margin-top: 50px;
     padding-top: 200px;
 }
@@ -105,6 +112,170 @@ body {
 
 }
 
+/* Servidores */
+
+.servidores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.servidores h1 {
+    color: #ee620c;
+}
+
+.box-servidores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box-left {
+    background-color: #3C3C3C;
+    padding: 12px 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 750px;
+    min-height: 750px;
+}
+
+.box-left ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.box-right {
+    background-color: #3C3C3C;
+    padding: 12px 16px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 750px;
+    min-height: 750px;
+}
+
+.nossos-servidores {
+    text-align: center;
+}
+
+.btn-servidores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-servidores button {
+    all: unset;
+    background-color: #ee620c;
+    color: #fff;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.btn-servidores button:hover {
+    transform: scale(1.2);
+    min-width: 500px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+dialog {
+    background-color: #3C3C3C;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    width: 60%;
+}
+
+.euro-truck, .ark, .minecraft, .valheim {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 18px;
+    color: #fff;
+    background-color: #303030;
+    padding: 20px;
+    border-radius: 12px;
+}
+.euro-truck button, .ark button, .minecraft button, .valheim button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.euro-truck button:hover, .ark button:hover, .minecraft button:hover, .valheim button:hover {
+    transform: scale(1);
+}
+
+.euro-truck span, .ark span, .minecraft span, .valheim span {
+    color: #ee620c;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.como-jogar {
+    text-align: center;
+}
+
+.como-jogar p a {
+    color: #ee620c;
+}
+
+.como-jogar p span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.prioridade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prioridade ul {
+    list-style: none;
+}
+
+.prioridade ul li span {
+    color: #ee620c;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rodapé*/
 
 /* rodapé
 footer {
@@ -117,4 +288,4 @@ footer {
 	left: 0;
 	width: 100%;
 	z-index: 100;
-}*/
+}
