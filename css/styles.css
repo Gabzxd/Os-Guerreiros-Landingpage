@@ -75,7 +75,6 @@ body {
 
 /*primeira div*/
 .Home{
-    background-color: var(--corDeFundo);
     width: 100%;
     height: 100vh;
     text-align: center;
@@ -261,7 +260,55 @@ dialog {
     font-size: 18px;
 }
 
+/* Contatos */
 
+.contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.contatos h1 {
+    color: var(--laranja);
+}
+
+.contatos-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contatos-left, .contatos-right {
+    background-color: #3C3C3C;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 500px;
+    min-height: 500px;
+    max-height: 600px;
+}
+
+.contatos-left h3, .contatos-right h3, .contatos-left span, .contatos-right span {
+    color: var(--laranja);
+}
+
+.contatos-left ul, .contatos-right ul {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contatos-left a, .contatos-right a {
+    color: #fff;
+    text-decoration: underline;
+}
 
 
 
