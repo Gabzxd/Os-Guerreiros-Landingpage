@@ -1,27 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Os Guerreiros</title>
-    <link rel="shotcut icon" href="img/image 1Logo1.png">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/Logo.png">
 </head>
+
 <body>
-    <div class="landingpage container">
-        <div class="content">
-            <img src="img/image 1Logo1.png" alt="Logo1">
-            <div class="equipes">
-                <h2>Equipes Twitch</h2>
-                <div class="equipes-content">
-                    <a href="https://osg.cx/equipe-academia" target="_blank"><img src="img/Academia.png" alt="Academia"></a>
-                    <a href="https://osg.cx/equipe-principal" target="_blank"><img src="img/Principal.png" alt="Principal"></a>
+    <main class="container">
+        <div class="home-navbar">
+            <div class="openSide-content">
+                <div class="sidebarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <button id="openSide" class="openSide" onclick="openSide()">Abrir</button>
+            </div>
+            <nav id="mySidebar" class="sidebar">
+                <div class="sidebarBtn">
+                    <div class="sidebarMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <button id="closeSide" class="sideButton" onclick="closeSide()">Fechar</button>
+                </div>
+                <ul class="sidebarList">
+                    <li><a href="#home" class="sidebarItem">Home</a></li>
+                    <li><a href="#sobre" class="sidebarItem">Sobre</a></li>
+                    <li><a href="#faca-parte" class="sidebarItem">Faça parte</a></li>
+                    <li><a href="#patrocinios" class="sidebarItem">Patrocínio</a></li>
+                    <li><a href="#servidores" class="sidebarItem">Servidor de Games</a></li>
+                    <li><a href="#equipe" class="sidebarItem">Administração</a></li>
+                    <li><a href="#faq" class="sidebarItem">FAQ</a></li>
+                    <li><a href="#contatos" class="sidebarItem">Contato</a></li>
+                </ul>
+                <img src="img/Logo.png" alt="Logo1" class="logo-sem-letras logo-navbar">
+            </nav>
+        </div>
+        <div class="home" id="home">
+            <img src="img/Logo1.png" alt="Logo1">
+            <div class="equipes-content">
+                <h2>Equipes da Twitch</h2>
+                <div class="equipes">
+                    <a href="https://osg.cx/equipe-academia"><img src="img/Academia.png" alt="Academia"></a>
+                    <a href="https://osg.cx/equipe-principal"><img src="img/Principal.png" alt="Principal"></a>
                 </div>
             </div>
         </div>
-    </div>
+<script src="script.js"></script>
 </body>
 </html>
